@@ -120,6 +120,9 @@
 .syno-as-win .syno-as-lpq-main-panel .syno-ux-gridpanel .syno-as-data-cell.syno-as-data-album div, .syno-as-win.syno-as-sharing-win .syno-as-mobile-panel .syno-ux-gridpanel .syno-as-data-cell.syno-as-data-album div {
     color: rgba(137, 153, 169, .6);
 }
+.syno-as-win .syno-as-lpq-main-panel .syno-ux-gridpanel .x-grid3-row .x-grid3-cell .x-grid3-cell-inner, .syno-as-win.syno-as-sharing-win .syno-as-mobile-panel .syno-ux-gridpanel .x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
+    color: rgba(137, 153, 169, .6);
+}
 /* playing queue song info */
 .syno-as-win .syno-as-lpq-main-panel .syno-as-lpq-info-div .lpq-title-text, .syno-as-win .syno-as-lpq-main-panel .syno-as-lpq-info-div .lpq-album-text, .syno-as-win .syno-as-lpq-main-panel .syno-as-lpq-info-div .lpq-artist-text, .syno-as-win.syno-as-sharing-win .syno-as-mobile-panel .syno-as-lpq-info-div .lpq-title-text, .syno-as-win.syno-as-sharing-win .syno-as-mobile-panel .syno-as-lpq-info-div .lpq-album-text, .syno-as-win.syno-as-sharing-win .syno-as-mobile-panel .syno-as-lpq-info-div .lpq-artist-text {
     color: #7a8fa2;
@@ -140,6 +143,11 @@
 /* bottom player control background */
 .syno-as-win .syno-as-player-panel .syno-as-control {
     background-color: #233c39;
+}
+/* progress bar background */
+.syno-as-win .syno-as-slider .syno-as-slider-bg {
+    background-color: #000;
+    box-shadow: none;
 }
 
 
