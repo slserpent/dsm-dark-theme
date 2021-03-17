@@ -1,1 +1,1 @@
-These are the modified UI files that are used by the stylesheet but before they were converted into data URIs. This is for reference only should you want to fork.
+These are the modified UI files that are used by the stylesheet but before they were converted into data URIs. This is for reference only, should you want to fork.
