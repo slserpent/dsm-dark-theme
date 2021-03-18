@@ -7,11 +7,11 @@ Note: Does currently override some non-AudioStation menus unless you use an Audi
 
 
 ### Previews
-![Coexisting with other apps](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/1.png)
 Coexisting with other apps
-![Dialogs and artwork](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/2.png)
+![Coexisting with other apps](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/1.png)
 Dialogs and artwork
-![Playing queue](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/3.png)
+![Dialogs and artwork](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/2.png)
 Playing queue
-![Playing queue before](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/4.png)
+![Playing queue](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/3.png)
 Playing queue before
+![Playing queue before](https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/previews/4.png)
