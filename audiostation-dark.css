@@ -11,7 +11,7 @@
     border-top-color: #233c39;
 }
 /* audio station window title bar deactivated */
-.syno-as-win.sds-window-v5.deactive-win .x-window-tl {
+.syno-as-win.deactive-win .x-window-tl {
     background-image: linear-gradient(#838688,#202020);
     border-top-color: #313938;
 }
@@ -90,6 +90,11 @@
     background-color: #2a2a2a;
     border-bottom-color: #888;
 }
+/* main list header options button */
+.syno-as-win .hide-org-hd-menu.syno-ux-gridpanel .x-grid3-header .x-grid3-header-bwrap {
+    border-left-color: #888;
+    background-color: #2a2a2a;
+}
 /* main list text */
 .syno-as-win .syno-ux-gridpanel div {
     color: #d0d0d0;
@@ -104,11 +109,6 @@
 }
 .syno-as-win .syno-ux-gridpanel .x-grid3-row.x-grid3-row-over {
     background-color: #1e2625 !important;
-}
-/* main list header options button */
-.syno-as-win .hide-org-hd-menu.syno-ux-gridpanel .x-grid3-header .x-grid3-header-bwrap {
-    border-left-color: #888;
-    background-color: #2a2a2a;
 }
 
 
@@ -138,6 +138,13 @@
 .syno-as-win .syno-ux-button-default.x-btn button, .syno-as-win .syno-ux-button-default.x-btn-over.x-btn button, .syno-as-win .syno-ux-button-default.x-btn:hover button, .syno-as-win .syno-ux-button-default.x-btn-focus.x-btn button, .syno-as-win .syno-ux-button-default.x-btn-click.x-btn button, .syno-as-win .syno-ux-button-default.x-btn:active button {
     color: #d0d0d0;
 }
+/* selected button */
+.syno-as-win .syno-as-toolbar .syno-as-listMode .x-btn.x-btn-pressed, .syno-as-win .syno-as-toolbar .syno-as-thumbMode .x-btn.x-btn-pressed {
+    border-color: #70899b;;
+    background-image: linear-gradient(#1e567d, #2e75a8);
+    background-color: #2e75a8;
+    box-shadow: 0 1px 2px #273f51 inset;
+}
 
 
 /* bottom player control background */
@@ -158,20 +165,22 @@ div.ext-el-mask.sds-window-mask {
 
 
 /* scrollbars */
-/* widens the scrollbar by 6px and makes it more visible */
 .syno-as-win .vscrollerbar, .syno-as-win .hscrollerbar {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 .syno-as-win .vscrollerbar:hover, .syno-as-win .hscrollerbar:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .syno-as-win .vscrollerbar {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAB3RJTUUH5QMRCQ4kiAmYawAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAARnQU1BAACxjwv8YQUAAAAYSURBVHjaY2AAAg0jm//kYAYYGDWAMgMA1ZiE5aRcNCoAAAAASUVORK5CYII=");
-    width: 16px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAB3RJTUUH5QMSDDo1Te0mawAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAARnQU1BAACxjwv8YQUAAAAYSURBVHjaY2AAAlMn///kYAYYGDWAMgMA23SUpcse4SIAAAAASUVORK5CYII=");
 }
-.syno-as-win .vscrollerbase {
-    /* widens the track of the scrollbar, which using absolute positioning */
+/* widens the main list scrollbar by 6px */
+.syno-as-win .syno-as-card .vscrollerbase {
+    /* widens the track of the scrollbar, which uses absolute positioning */
     left: calc(100% - 4px) !important;
+}
+.syno-as-win .syno-as-card .vscrollerbar {
+    width: 16px;
 }
 
 
@@ -305,6 +314,7 @@ div.ext-el-mask.sds-window-mask {
 /* volume popup */
 .syno-ux-menu.x-layer.syno-as-vertical-volume-menu.syno-ux-button-menu {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAACsCAYAAAA0TY/FAAAAB3RJTUUH5QMRCDYJ24sS0gAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAARnQU1BAACxjwv8YQUAAAKySURBVHja7d1BbtNQFEbh4CQKqUNxG0SiVuyBpcAIURCspOkOM0BqWElSwQTuC/fBk+W0tWO3J+UfHCmD2r5f7MbD2yuKopf0zMqsgTWyxlZuTSDlPtPIZ8x85r+GMqbvfxwOfGlNrdfWzJo/cjOfZeqz5T5rP0VVYY6tc2thLa219QvS2mda+IzHZVT6mEXMW+saMPxdXfusEbV9/CJo4Lfw/EAwsZXPnLthC4p3JzyXl4Ah63bps2/vUs+fv7H/sy0BA9Zt6bMHQz+Cwi0LvyA/AQPW7YfPnkdQePbCb/wMMFzTZm4YpKA5YLCmzQWCJxA9gegJRE8gegLRE4ieQPQEoicQPYHoCURPIHoC0ROInkD0BKInED2B6AlETyB6AtETiJ5A9ASiJxA9gegJRE8gegLRE4ieQPQEoicQPYHoCURPIHoC0ROInkD0BKInED2B6AlETyB6AtETiJ5A9ASiJxA9gegJRE8gegLRE4ieQPQEoicQPYHoCURPIHoC0ROInkD0BKInED2B6AlETyB6laAns0vy0Ld9rovSts8nt4813Zi7AAxYt0VR2phb3mm8Agx5374XFTuND3Xr9KrYsXV6117wK+ubtQEMH9v4TFfFv73gz4vSXvCmm9vPrDfWF+umhWHDOb76Oc8qrldrc3uKyvx5DH889gMnFb2wTvwin/ZEhWM/+7lO/NxV18x9ppHPmKWYKlBERVjfG1Q09BOHC72yPjZEhWMu/BwTP+dwxzXjPFkyZ+8u0H2L6KF/c9MGqBs/ZurnGFZ963XaB7QvqnVMG6CmqE4wbYHqojrDtAm6DZW+xzZdYtoGVaFOrQ8O2fjn064wXYDKqKPiz0vwnfXePx91hekKlKLSF/StL0Q6KKLKL+idL8RDAFXhOr/WQ4EerEcfQKD/DfQbWSxuOUKmYyUAAAAASUVORK5CYII=");
+    opacity: 0.85;
 }
 
 
