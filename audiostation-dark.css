@@ -8,7 +8,7 @@
 .syno-as-win .x-window-tl {
     background-image: linear-gradient(#687884,#202020);
     background-color: #202020;
-    border-top-color: #233c39;
+    border-top-color: #2f514d;
 }
 /* audio station window title bar deactivated */
 .syno-as-win.deactive-win .x-window-tl {
