@@ -3,7 +3,7 @@ A dark theme stylesheet to override Synology Audio Station's eye-melting theme. 
 ### Usage
 You'll need a browser extension to modify live site CSS, such as the Stylus extension for Firefox or Chrome. For Stylus, go to your Synology DSM page in your browser, click the Stylus toolbar icon, and select the "Write style for" option. Copy the code from the CSS file in this repository and paste it into the editor that just opened. Save the changes and you should be done.
 
-The CSS is "fairly" well commented as to what rules control what parts of the UI, so edit and fork to your heart's content.
+The CSS is "fairly well" commented as to what rules control what parts of the UI, so should make edits and forks pretty easy.
 
 ### Notes
 * Does currently override some non-Audio-Station menus (they use generic top-level DOM elements), although you could use a custom Audio Station URL to avoid this.
