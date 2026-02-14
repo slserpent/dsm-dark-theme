@@ -1,6 +1,6 @@
 /*
 Synology Audio Station Dark Theme
-Date: 03-22-21
+Date: 2026-02-14
 Author: Snake @ SnakeByte Studios
 Homepage: https://github.com/slserpent/dsm-dark-theme
 UpdateURL: https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/audiostation-dark.css
@@ -44,6 +44,11 @@ UpdateURL: https://raw.githubusercontent.com/slserpent/dsm-dark-theme/main/audio
 /* clear search box icon */
 .syno-ux-textfilter .x-form-field-wrap .syno-ux-textfilter-trigger {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAABICAYAAADs+TUPAAAAB3RJTUUH5QMWDDYK2FzTDQAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAARnQU1BAACxjwv8YQUAAAObSURBVHja7VZdSJNhFP4u9aL8Ca+C8DbMplQUgUFQIVJeJISZhBdChHUjQVfJysyLpSnKKH8IovUDGZqkWJkTp25u0z5n8w9t+FPqQMiIFIv1PvN9x9lHg3cbdPUdOPC+5zw/3863jaMoeuixsb2VyPISSyPLhzyNvJYYr3j2+uZP05e1lVp1frZqcEI1InFGDT1gYhXPWfvxvdE9M1lp83wy/ivRAwbYaMV3La77H0QS1iaw4EgbLPpXS4a94yEBVjLvP5BRL+44oybuwIIjbWAbc92lT8jnbIAwFzegFvZJGEfawDXtDTPgcw6aCHHUwgzU0Sppg56hgdvaOVdW38sXfZy1/d6RoTvSBq0vLGGfgI6FjotiWhhH2uD6jfKwryYdCx0XxYAjbbAvPb2kZ3iAvuQmOnNu0iTuwIIjbcAi5fiJnPuyvwNgwYnGAJGTmWWos3S8jvhLRu9gdlYdsNGKiziUkJhQXXi52NTwuCX04nFGDT2GORKruAj8YxaxrGBp5lnBa/H9m+qhhx7/KRbW/UksK1i2s5zg2c5rSfGK5/r8q9YJ35w6Mu11s/8hJxJn1NADJlbxotlvSx7HlMclhLWJHjDARiueNrXkiyisTWDBkTZgBKyJIQNWMp88feqpuOOs7OxFwTuw4Egb2FT3e/qE7OnyWNkAYS5uQC3skzCOtIHd6wkbAZ9z0ESIoxZuMOaQNuh12u3aOTc0PyoVfZy1feuoU96graern5LpWOi4KOYV40gbVNfVvKRkOhY6LooBR9ogIzPzyke3w05espfOnJt4xR1YcKQNWKRcKC6yyP4OgFVi2YvO5OVa3lg/2CIJo5d77uwzJZ69aHdysumm8VbH8852qxDGGTX0FH0v0kMPPRRlbuVrKstGlirLPzxVXkuNV7xwZnlhWZ2fDTimPgfY/1AwcUYNPWBiFS+bXPQF7N7xkLA20QMG2GjF97LN7VckYW0CC460ASO0sl0nJMBK5vyC8x3ijrOysxcF78CCI20wqI4u0CfkczZAmIsbUKMYcKQN2F70m5L5nIMmQhw1zag2pQ363I4t7ZxbLE/KRR9nbd865tqWNui09vopmY6FjotiwJE2qG9uGqBkOhY6LooBR9rg8LGj1/pGndvkJQfozLlJ6A4sONIGLFJKy652yf4OgFVi2YsKLhZ2dg/2b0QSRo8tXW+VePaiPWlptZU1Jlfbu+5VIYwzaugp+l6kx1+qx6THcveYMgAAAABJRU5ErkJggg==");
+}
+    
+/* search result titles*/
+.syno-as-win .syno-search-all-container {
+    color: #49c3b9;
 }
 
 
@@ -256,7 +261,7 @@ div.ext-el-mask.sds-window-mask {
     color: #d0d0d0;
 }
 .syno-as-win .thumb-wrap span.thumb-artist {
-    color: #4a5259;
+    color: #707d88;
 }
 /* home screen titles */
 .syno-as-win .syno-as-home-section-title {
